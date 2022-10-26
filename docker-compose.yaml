@@ -9,5 +9,5 @@ services:
       dockerfile: Dockerfile
     env_file:
       - .env
-    volumes:
-      - ./build:/root/project/build
+    command:
+      - some_dummy_command_line_argument
